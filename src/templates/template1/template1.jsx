@@ -2,7 +2,7 @@ import React from 'react'
 import background from '../../assets/template1/bg.jpg'
 
 
-const Design1 = () => {
+const Template1 = () => {
   return (
     <div className='min-h-screen flex flex-col text-white bg-cover py-4' style={{ backgroundImage: `url(${background})` }}>
       <main className='container mx-auto px-6 flex-1 text-center'>
@@ -53,4 +53,4 @@ const Design1 = () => {
   )
 }
 
-export default Design1
+export default Template1
